@@ -2,6 +2,9 @@ module.exports = {
 	title: 'SCUI',
 	base: "/scui-doc/",
 	description: '高性能中后台前端解决方案',
+	head: [
+		['link', { rel: 'icon', href: '/logo.png' }]
+	],
 	port: 2801,
 	themeConfig: {
 		logo: '/logo.png',
